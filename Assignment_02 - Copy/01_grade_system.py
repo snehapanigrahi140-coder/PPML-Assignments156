@@ -1,0 +1,10 @@
+p = float(input("Enter percentage: "))
+if not 0 <= p <= 100:
+    print("Enter a percentage from 0 to 100.")
+elif p >= 90: print("Grade: O")
+elif p >= 80: print("Grade: E")
+elif p >= 70: print("Grade: A")
+elif p >= 60: print("Grade: B")
+elif p >= 50: print("Grade: C")
+elif p >= 40: print("Grade: D")
+else: print("Grade: F")

@@ -1,0 +1,11 @@
+import numpy as np
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print("Shape:", arr.shape)
+print("Dimensions:", arr.ndim)
+print("Size:", arr.size)
+print("Reshaped:\n", arr.reshape(3, 2))
+print("Ones:\n", np.ones((2, 3)))
+print("Zeros:\n", np.zeros((2, 3)))
+a = np.array([1, 2]); b = np.array([3, 4])
+print("Concatenated:", np.concatenate((a, b)))
+print("Sorted:", np.sort([5, 2, 9, 1]))

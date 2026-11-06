@@ -1,0 +1,6 @@
+s = input("Enter a string: ")
+print("Reversed string:", s[::-1])
+vowels = sum(ch.lower() in "aeiou" for ch in s if ch.isalpha())
+consonants = sum(ch.isalpha() and ch.lower() not in "aeiou" for ch in s)
+print("Vowels:", vowels)
+print("Consonants:", consonants)

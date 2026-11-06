@@ -1,0 +1,6 @@
+s1 = set(eval(input("Enter first set (example {1, 2, 3}): ")))
+s2 = set(eval(input("Enter second set (example {2, 3, 4}): ")))
+print("Union:", s1 | s2)
+print("Intersection:", s1 & s2)
+print("Difference (first - second):", s1 - s2)
+print("Symmetric difference:", s1 ^ s2)
